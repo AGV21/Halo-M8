@@ -24,10 +24,8 @@ li, ul{
 .navbar {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     padding: 20px;
     background-color: black;
-    color: red;
 }
 .nav-links a {
     color: white;
@@ -51,7 +49,7 @@ li, ul{
     position: relative; 
 }
 .dropdown {
-    background-color: teal;
+    background-color: black;
     padding: 1em 0;
     position: absolute;
     display: none;
@@ -69,19 +67,19 @@ li, ul{
     text-align: center;
 }
 .dropdown li:hover {
-    background-color: Orange;
+    background-color: rgb(2, 2, 156);
 }
 .Games:hover .dropdown {
     display: block;
 }
 
 a:link{
-    color: white;
     text-decoration: none;
 }
 
-a:hover{
-    color: green;
+a:visited{
+    text-decoration: none;
+    color: white;
 }
 
 footer{
